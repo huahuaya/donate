@@ -1,0 +1,96 @@
+/*
+* @Author: 27987
+* @Date:   2019-12-11 20:54:51
+* @Last Modified by:   27987
+* @Last Modified time: 2019-12-12 19:11:31
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+.warnning{
+  height: 30px;
+  background: #c0c0c0;
+}
+.warnning>img{
+	margin-left: 200px;
+	margin-bottom: 8px;
+}
+.tip{
+	width: 1000px;
+	height: 30px;
+
+	overflow: hidden;
+
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+}
+.tip>span{
+	color: red; 
+	position:absolute ;
+	line-height:30px;
+	left: 800px;
+}
+.box{
+	width:1200px;
+	height: 383px;
+	border: 1px solid red;
+	margin: 10px auto;
+	position:relative ;
+	overflow: hidden; 
+}
+.slider{
+	width: 8400px;
+	position:absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color:  ;
+	top: 175px;
+    line-height: 50px;
+    background: rgb(255,0,0);
+    font-size: 30px;
+    position: absolute;
+    opacity: 0; 
+}
+#left{
+	left: 30px;
+	color: white;
+}
+#right{
+	right: 30px;
+	color: white;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+.nav .active{
+	background: red;
+}
